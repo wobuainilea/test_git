@@ -10,7 +10,8 @@ def test3(a, b):
     return a * b
 
 def test4(a, b):
-    return a / b
+    if b != 0:
+        return a / b
 
 if __name__ == '__main__':
     count = 1
