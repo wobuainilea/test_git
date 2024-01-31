@@ -12,6 +12,9 @@ def test3(a, b):
 def test4(a, b):
     if b != 0:
         return a / b
+    else:
+        return False
+
 
 if __name__ == '__main__':
     count = 1
