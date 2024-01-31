@@ -12,6 +12,8 @@ def test3(a, b):
 def test4(a, b):
     if b != 0:
         return a / b
+    else:
+        return "b cannot is 0"
 
 if __name__ == '__main__':
     count = 1
