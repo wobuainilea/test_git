@@ -9,6 +9,9 @@ def test2(a, b):
 def test3(a, b):
     return a * b
 
+def test4(a, b):
+    return a / b
+
 if __name__ == '__main__':
     count = 1
     while True:
